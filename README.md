@@ -1,8 +1,8 @@
-# TP1 - Node.js Web Application
+﻿# TP1 - Node.js Web Application
 
 ## Project Description
 
-This is a simple Node.js web application that serves a dynamic web interface and provides RESTful API endpoints. The application demonstrates basic server setup with Express.js, static file serving, and API route handling.
+This is a simple Node.js web application that serves a dynamic web interface and provides RESTful API endpoints. The application demonstrates basic server setup with Express.js, static file serving, and API route handling. (Edited on develop branch to simulate a conflicting change.)
 
 ## Technologies Used
 
@@ -64,14 +64,14 @@ This is a simple Node.js web application that serves a dynamic web interface and
 ## Project Structure
 
 ```
-├── server.js              # Main Node.js Express server
-├── package.json           # Project dependencies and metadata
-├── .gitignore             # Git ignore rules
-├── README.md              # Project documentation
-└── public/
-    ├── index.html         # HTML markup
-    ├── style.css          # CSS styling
-    └── script.js          # Client-side JavaScript
+â”œâ”€â”€ server.js              # Main Node.js Express server
+â”œâ”€â”€ package.json           # Project dependencies and metadata
+â”œâ”€â”€ .gitignore             # Git ignore rules
+â”œâ”€â”€ README.md              # Project documentation
+â””â”€â”€ public/
+    â”œâ”€â”€ index.html         # HTML markup
+    â”œâ”€â”€ style.css          # CSS styling
+    â””â”€â”€ script.js          # Client-side JavaScript
 ```
 
 ## Author
