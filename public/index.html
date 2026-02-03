@@ -9,31 +9,66 @@
 <body>
     <div class="container">
         <header class="header">
-            <h1>Welcome to TP1 GitHub Collaborative</h1>
-            <p class="subtitle">Master Git and GitHub workflow</p>
+            <nav class="navbar">
+                <div class="nav-content">
+                    <span class="logo">TP1</span>
+                    <ul class="nav-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#api">API</a></li>
+                        <li><a href="#github">GitHub</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="hero">
+                <h1>Welcome to TP1 GitHub Collaborative</h1>
+                <p class="subtitle">Master Git and GitHub workflow</p>
+                <p class="tagline">Complete collaborative development example</p>
+            </div>
         </header>
 
         <main>
-            <section class="welcome-section">
+            <section class="welcome-section" id="about">
                 <h2>About This Project</h2>
                 <p>This project demonstrates a complete collaborative workflow with:</p>
                 <ul>
-                    <li>Git version control</li>
-                    <li>GitHub publishing</li>
-                    <li>Collaborative work (branches, PRs)</li>
-                    <li>Complete documentation</li>
-                    <li>Deployment</li>
+                    <li>✓ Git version control</li>
+                    <li>✓ GitHub publishing</li>
+                    <li>✓ Collaborative work (branches, PRs)</li>
+                    <li>✓ Complete documentation</li>
+                    <li>✓ Deployment</li>
                 </ul>
             </section>
 
-            <section class="api-section">
+            <section class="features-section">
+                <h2>Key Features</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3>🚀 Version Control</h3>
+                        <p>Git-based workflow with proper branching strategy</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>💻 Modern Stack</h3>
+                        <p>Node.js, Express, HTML5, CSS3, and vanilla JavaScript</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>📚 Documentation</h3>
+                        <p>Complete README with setup and usage instructions</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="api-section" id="api">
                 <h2>Test API</h2>
+                <p>Click the button below to test the REST API endpoint</p>
                 <button onclick="fetchHello()">Call /api/hello</button>
                 <div id="response"></div>
             </section>
 
-            <footer class="footer">
-                <p>&copy; 2026 Collaborative GitHub Project | TP1</p>
+            <footer class="footer" id="github">
+                <div class="footer-content">
+                    <p>&copy; 2026 Collaborative GitHub Project | TP1</p>
+                    <p>📍 <a href="https://github.com/Ilamq/TP1-Git" target="_blank">View on GitHub</a></p>
+                </div>
             </footer>
         </main>
     </div>
