@@ -2,7 +2,11 @@
 
 ## Project Description
 
+<<<<<<< HEAD
 This is a simple Node.js web application that serves a dynamic web interface and provides RESTful API endpoints. The application demonstrates basic server setup with Express.js, static file serving, and API route handling. (Edited on main branch to simulate a conflicting change.)
+=======
+This is a simple Node.js web application that serves a dynamic web interface and provides RESTful API endpoints. The application demonstrates basic server setup with Express.js, static file serving, and API route handling. (Edited on develop branch to simulate a conflicting change.)
+>>>>>>> develop
 
 ## Technologies Used
 
