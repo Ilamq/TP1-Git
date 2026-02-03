@@ -52,6 +52,24 @@ git checkout -b feature/votre-feature-name
 npm start
 ```
 
+### Fork (contribuer depuis un fork)
+
+Si vous ne pouvez pas pousser directement sur `origin` (par exemple contribution externe), forkez le repository puis clonez votre fork:
+
+```bash
+# Sur GitHub: cliquer sur "Fork" en haut à droite
+git clone https://github.com/<votre-username>/TP1-Git.git
+cd TP1-Git
+git remote add upstream https://github.com/Ilamq/TP1-Git.git
+# Synchroniser votre fork avec l'upstream
+git fetch upstream
+git checkout develop
+git pull upstream develop
+```
+
+Pour soumettre vos modifications, poussez sur votre fork (`origin`) puis créez une Pull Request ciblant `develop` du repository upstream.
+
+
 ---
 
 ## 🔄 Processus de Contribution
@@ -274,6 +292,13 @@ Ferme #123 (si applicable)
 - Faites les changements demandés
 - Re-push pour mettre à jour la PR
 - Demandez une nouvelle review
+
+### Politique de validation
+
+- **Au moins 1 reviewer approuvé est requis** avant le merge dans `develop`.
+- Toutes les vérifications CI doivent être passées (lint, tests, build) avant approbation.
+- Pour les changements critiques (breaking changes, sécurité), demandez 2 reviewers et une validation explicite du mainteneur.
+- Les PRs doivent être accompagnées d'une description claire, d'une checklist et, si applicable, d'un lien vers l'issue associée.
 
 ### Après Approbation
 
